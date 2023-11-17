@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing In</title>
+    <link rel="shourtcut icon"  type="x-icon" href="img/ppppppppppppppppp7n.png">
+    <link rel="stylesheet" href="Style_singin.css">
+</head>
+<body>
+    <div class="mane">
+        <header>
+            <div class="logo"><a href="index.html"><h1>AI Engine</h1></a></div>
+                   <nav>
+                           <ul class="nav__links">
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="about.html">About</a></li>
+                               <li><a href="contact.html">Contact</a></li>  
+                               <li><a href="help.html">help</a></li> 
+                           </ul>
+                   </nav>    
+        </header>
+        <div class="singin">
+            <div class="sing2">
+                <h1>Sing In</h1><br>
+                 <h5>Welcome Back To your acount</h5>
+                <input type="email" placeholder="  Email"  id="emailinput">
+                <input type="password" placeholder="  password" id="pasword">
+                <button class="okk" id="userbtn" > Sing In Now </button>
+            </div>
+        </div>
+    </div>
+
+<style>
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1.5px;}
+.mane{
+    background-color: black;
+    background-image: url(img/2003.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    height:880px;}
+li,a,button{font-family:sans-serif ;
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+header{
+    display: flex;
+    padding: 30px 10%;
+    align-items: center;
+    justify-content: space-between;}
+.logo{
+    cursor:pointer;
+    color: #ffffff;}
+.nav__links {
+    list-style: none;}
+.nav__links  li{
+    display: inline-block;
+    padding: 0px 20px;}
+.nav__links   li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;}
+.nav__links  li a:hover{
+    color: rgba(0, 0, 0, 0.845);}
+.singin{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;}
+
+.sing2{ 
+    padding-top: 30px;
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(6px);
+    border-radius: 30px;
+    background-position: -320px 120px ;}
+.sing2 h1{
+    color: rgb(226, 226, 226);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.sing2 h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 6px;
+    letter-spacing: 3px;
+    font-size: 18px;}
+
+input{
+    padding: 9px;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;}
+
+  .okk{
+        width: 200px;
+        cursor: pointer;
+        height: 50px;
+        background-color: #000000;
+        color: #ffffff;
+        margin-left:100px;cursor: pointer;
+        margin-top: 25px;
+       border-radius: 20px;}
+   /*                 copirayht                */
+
+/*                              large            */
+@media  (min-width:1550px) {
+    .mane{background-color: #000000;background-image: none;};
+
+
+
+
+}
+ /*                                  ipd cordone                                       */
+ @media  (max-width:840px){
+    .nav__links   li a{display: none;}
+    .logo{position: absolute;}
+
+
+ }
+
+
+ /*                                  phone cordone                                       */
+ @media  (max-width:440px){
+.singin{width: 90%;}
+.sing2{width: 80%;}
+.okk{margin-left: 22%;background-color: rgba(0, 0, 0, 0.507);font-weight: bold;}
+
+.sing2{ 
+    padding-top: 30px;
+    margin: 100px auto;
+    width: 350px;
+    height: 400px;
+    backdrop-filter: none;
+
+background-color: rgba(0, 0, 0, 0.507);
+   }}
+   .bactotop{background-color: rgb(0, 0, 0);}
+.bactotop a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:46%;}
+    .cop{background-color: #838383;text-align: center;}
+</style>
+    <script>
+let userbtn = document.getElementById('userbtn');
+let emailinput = document.getElementById('emailinput');
+let pasword = document.getElementById('pasword');
+userbtn.onclick =function(){
+                     if(emailinput > 0 && pasword > 0 ){
+                    let emailinput =emailinput.value;
+                    let pasword = pasword.value;}
+                    /* console.log(emailinput.value,pasword.value)*/}
+let dataUser =[];
+userbtn.onclick = function(){
+ let newUser = {
+
+     emailinput:emailinput.value,
+     pasword:pasword.value, }  
+      console.log(newUser)} 
+    </script>
+</body> 
+ <div class="bactotop"><a href="#">bac to top</a></div>
+    <p class="cop">coperight &copy;AIwebset</p>
+</html>
+
+

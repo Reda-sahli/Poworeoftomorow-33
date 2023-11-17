@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    
+    <link rel="shourtcut icon"  type="x-icon" href="img/ppppppppppppppppp7n.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+ 
+</head>
+<!-------------------------
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">AI-power</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <section></section>
+       <style>
+*{ padding: 0;margin: 0;text-decoration: none;list-style: none;box-sizing: border-box;}.icon{color: white;}body{font-family: sans-serif;}nav{background: #3f3f3f;height: 80px;width: 100%;}label.logo{color: white;font-size: 35px;line-height: 80px;padding: 0 100px;font-weight: bold;}
+nav ul{float: right;margin-right: 20px;}nav ul li{display: inline-block;line-height: 80px;margin: 0 5px;}
+nav ul li a{color: white;font-size: 17px;padding: 7px 13px;border-radius: 3px;text-transform: uppercase;}
+a.active,a:hover{background: #919191;transition: .5s;}
+.checkbtn{font-size: 30px;color: white;float: right;line-height: 80px;margin-right: 40px;cursor: pointer;display: none;}
+#check{display: none;}
+@media (max-width: 952px){
+  label.logo{  font-size: 30px;padding-left: 50px; }
+  nav ul li a{  font-size: 16px;}}
+@media (max-width: 858px){
+  .checkbtn{display: block;}
+  ul{position: fixed;width: 100%;height: 100vh;background: #484848;top: 80px;left: -100%;text-align: center;transition: all .5s;}
+  nav ul li{
+display: block; margin: 50px 0;line-height: 30px;}
+  nav ul li a{font-size: 20px;}
+  a:hover,a.active{background: none;color: #878787;}
+#check:checked ~ ul{left: 0;}}
+section{background: url(bg1.jpg) no-repeat;background-size: cover;height: calc(100vh - 80px);} ---------------->
+/*                          /////////////////////////////////////////////////         */
+<style>
+.bactotop{background-color: rgb(192, 192, 192);}
+.bactotop {color: rgb(255, 255, 255);font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+.cop{background-color: #838383;text-align: center;}</style>
+
+
+
+
+<div class="counter-up">
+  <div class="content">
+    <div class="box">
+      <div class="icon"><i class="fas fa-history"></i></div>
+      <div class="counter">724</div>
+      <div class="text">Working Hours</div>
+    </div>
+    <div class="box">
+      <div class="icon"><i class="fas fa-gift"></i></div>
+      <div class="counter">508</div>
+      <div class="text">Completed Projects</div>
+    </div>
+    <div class="box">
+      <div class="icon"><i class="fas fa-users"></i></div>
+      <div class="counter">436</div>
+      <div class="text">Happy Clients</div>
+    </div>
+    <div class="box">
+      <div class="icon"><i class="fas fa-award"></i></div>
+      <div class="counter">120</div>
+      <div class="text">Awards Received</div>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1200
+  });
+});
+</script>
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.section{
+  background: url("images/bg-1.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.wrapper{
+  padding: 20px 50px;
+}
+.wrapper .title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.wrapper p{
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.counter-up{
+  background: url("images/bg-2.jpeg") no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}
+.counter-up .content{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-up .content .box{
+  border: 1px dashed rgba(255,255,255,0.6);
+  width: calc(25% - 30px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+}
+.content .box .icon{
+  font-size: 48px;
+  color: #e6e6e6;
+}
+.content .box .counter{
+  font-size: 50px;
+  font-weight: 500;
+  color: #f2f2f2;
+  font-family: sans-serif;
+}
+.content .box .text{
+  font-weight: 400;
+  color: #ccc;
+}
+@media screen and (max-width: 1036px) {
+  .counter-up{
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box{
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper{
+    padding: 20px;
+  }
+  .counter-up{
+    padding: 30px 20px 0 20px;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<div class="bactotop"><a href="#">bac to top</a></div>
+<p class="cop">coperight &copy;AIwebset</p>
+</html>
